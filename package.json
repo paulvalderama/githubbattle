@@ -1,9 +1,10 @@
 {
   "name": "github-battle",
+  "homepage": "http://paulvalderama/github.io/githubbattle",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
+  "scripts": {    
     "start": "webpack-dev-server",
     "build": "NODE_ENV='production' webpack"
   },
@@ -41,6 +42,7 @@
     "copy-webpack-plugin": "^6.0.3",
     "css": "^3.0.0",
     "css-loader": "^3.6.0",
+    "gh-pages": "^3.1.0",
     "html-webpack-plugin": "^4.3.0",
     "loader": "^2.1.1",
     "style-loader": "^1.2.1",
